@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: APP NAME
-email: appname@gmail.com
-pwalink: "https://app.DOMAIN.com/"
-googleplaylink: "https://play.google.com/store/apps/details?id=com.DOMAIN.app.twa"
+title: Fortune Cookie
+email: fortunecookieproapp@gmail.com
+pwalink: "https://app.fortunecookie.pro/"
+googleplaylink: "https://play.google.com/store/apps/details?id=pro.fortunecookie.app"
 appstorelink: "/?ref=requestappstore"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -99,16 +99,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "APP NAME"
+  name: "Fortune Cookie"
   avatar: "/assets/images/portrait_black.png"
-  bio: "My awesome APP constrained to a sentence or two goes here."
+  bio: "A funny Fortune Cookie app for your daily luck!"
   links:
     - label: "Web App"
       icon: "fas fa-fw fa-mobile-alt"
-      url: "https://app.DOMAIN.com/"
+      url: "https://app.fortunecookie.pro/"
     - label: "Google Play"
       icon: "fab fa-fw fa-google-play"
-      url: "https://play.google.com/store/apps/details?id=com.DOMAIN.app.twa"
+      url: "https://play.google.com/store/apps/details?id=pro.fortunecookie.app"
     # - label: "Apple Store"
     #   icon: "fab fa-fw fa-apple"
     #   url: "https://"
@@ -129,7 +129,13 @@ footer:
       url: "https://twitter.com/"
     - label: "Sitemap"
       icon: "fab fa-fw fa-sitemap"
-      url: "https://www.DOMAIN.com/sitemap.xml"
+      url: "https://www.fortunecookie.pro/sitemap.xml"
+    - label: "Terms"
+      icon: "fas fa-fw fa-file-signature"
+      url: "https://www.fortunecookie.pro/terms/"
+    - label: "Privacy"
+      icon: "fas fa-fw fa-user-secret"
+      url: "https://www.fortunecookie.pro/privacy/"
     - label: #"GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
