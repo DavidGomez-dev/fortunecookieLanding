@@ -116,3 +116,13 @@ h3 {
   padding-top: 0 !important; // To start right at the top
   padding-bottom: 6rem !important; // To let some space on for the menu footer app bar
 }
+
+section.cta {
+  background-image: url("../images/feature.jpg") !important;
+}
+
+@media (min-width: 48em) {
+  .archive__item-teaser img {
+    transform: translateY(-25%) !important; // Better ajustment for square pictures
+  }
+}

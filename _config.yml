@@ -15,13 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Fortune Cookie
 email: fortunecookieproapp@gmail.com
-pwalink: "https://app.fortunecookie.pro/"
+pwalink: "/?ref=requestpwa"
 googleplaylink: "https://play.google.com/store/apps/details?id=pro.fortunecookie.app"
 appstorelink: "/?ref=requestappstore"
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Discover Funny Fortune Cookie, your daily source of laughter and inspiration. Enjoy personalized humorous fortunes that brighten your day and connect you with a community of joy. Download now to start smiling!
 twitter_username: TwitterUsername
 github_username: username
 minimal_mistakes_skin: contrast #default
@@ -100,10 +97,10 @@ plugins:
 
 author:
   name: "Fortune Cookie"
-  avatar: "/assets/images/portrait_black.png"
+  avatar: "/assets/images/app-mockup.png"
   bio: "A funny Fortune Cookie app for your daily luck!"
   links:
-    - label: "Web App"
+    - label: #"Web App"
       icon: "fas fa-fw fa-mobile-alt"
       url: "https://app.fortunecookie.pro/"
     - label: "Google Play"
@@ -124,7 +121,7 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+    - label: #"Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "Sitemap"
@@ -158,7 +155,7 @@ defaults:
       related: true
       classes: ""
       header:
-        overlay_filter: linear-gradient(to right bottom,rgba(0, 153, 255,0.8), rgba(255, 51, 133,0.5))
+        overlay_filter: linear-gradient(to right bottom,rgba(255, 200, 55,0.8), rgba(255, 128, 8,0.5))
   # _pages
   - scope:
       path: "_pages"
